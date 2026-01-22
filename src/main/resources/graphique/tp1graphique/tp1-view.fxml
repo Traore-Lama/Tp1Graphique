@@ -29,7 +29,7 @@
       </HBox>
       <VBox layoutY="110.0" prefHeight="328.0" prefWidth="160.0" spacing="18.0" style="-fx-background-color: #20B5C9;">
          <children>
-            <Button fx:id="btnMenu1" graphicTextGap="25.0" mnemonicParsing="false" onMouseClicked="#btnMenu1Clicked" prefHeight="52.0" prefWidth="161.0" style="-fx-background-color: #20B5C9;" text="Exemple n 1" textFill="WHITE">
+            <Button fx:id="btnMenu1" graphicTextGap="25.0" mnemonicParsing="false" onMouseClicked="#btnMenu1Clicked" prefHeight="52.0" prefWidth="161.0" style="-fx-background-color: #20B5C9;" styleClass="Pressed" text="Exemple n 1" textFill="WHITE">
                <graphic>
                   <ImageView fitHeight="53.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -71,9 +71,9 @@
          <children>
             <AnchorPane fx:id="apMenu1" prefHeight="328.0" prefWidth="628.0" style="-fx-background-color: white;">
                <children>
-                  <Button layoutX="156.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnAjClicked" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: blue;" text="Ajouter" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="18.0" />
-                  <Button layoutX="314.0" layoutY="18.0" mnemonicParsing="false" onMouseClicked="#btnMoClicked" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: blue;" text="Modifier" AnchorPane.leftAnchor="314.0" AnchorPane.topAnchor="18.0" />
-                  <Button layoutX="470.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnSuClicked" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: blue;" text="Supprimer" AnchorPane.topAnchor="18.0" />
+                  <Button layoutX="156.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnAjClicked" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: blue;" styleClass="action-button" text="Ajouter" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="18.0" />
+                  <Button layoutX="314.0" layoutY="18.0" mnemonicParsing="false" onMouseClicked="#btnMoClicked" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: blue;" styleClass="action-button" text="Modifier" AnchorPane.leftAnchor="314.0" AnchorPane.topAnchor="18.0" />
+                  <Button layoutX="470.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnSuClicked" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: blue;" styleClass="action-button" text="Supprimer" AnchorPane.topAnchor="18.0" />
                   <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="31.0" prefWidth="112.0" text="Contact" />
                   <TableView layoutX="128.0" layoutY="72.0" prefHeight="234.0" prefWidth="372.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="128.0" AnchorPane.rightAnchor="128.0" AnchorPane.topAnchor="80.0">
                     <columns>
